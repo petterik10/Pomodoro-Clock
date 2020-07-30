@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f0e10c;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.time-container {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 25px;
+}
+
+.time-container span {
+  font-size: 50px;
+}
+
+#play_and_pause,
+#reset {
+  background-color: #f0e10c;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+  margin-bottom: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.button-wrapper button {
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20%;
+  background-color: #f0e10c;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+}
+
+.button-wrapper span {
+  min-width: 40px;
+  margin: 3px;
+  margin-bottom: 0;
+  font-size: 22px;
+}
